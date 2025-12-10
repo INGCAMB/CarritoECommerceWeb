@@ -72,7 +72,7 @@ node server.js //Ejecutar
 
 ## 🗄️ Frontend
 
-### 1️2️⃣ Crear y entrar a la carpeta del frontend
+### 2️⃣ Crear y entrar a la carpeta del frontend
 ```bash
 npx create-react-app frontend
 cd frontend
