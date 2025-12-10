@@ -1,0 +1,24 @@
+Backend:
+npm init -y
+npm install express mysql2 dotenv cors bcryptjs jsonwebtoken stripe
+npm install multer
+
+Frontend:
+npx create-react-app frontend //Creas el proyecto base
+cd frontend
+//axios: Sirve para hacer peticiones HTTP al backend
+//react-router-dom: Esto permite que puedas navegar entre páginas sin recargar el navegador
+//bootstrap: Instalas solo los estilos CSS y el bundle JS, pero no la librería React Bootstrap
+permite usar clases como: btn, card, modal, row, col, etc pero NO permite usar componentes como:
+<Modal>, <Button> del paquete react-bootstrap
+npm install axios react-router-dom bootstrap
+npm install react-icons --save
+npm install react-toastify
+npm install chart.js react-chartjs-2
+
+En index.js no olvides poner:
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+
+En App.js:
+import "react-toastify/dist/ReactToastify.css"; //Sirve para mandar mensajes con mas UX
